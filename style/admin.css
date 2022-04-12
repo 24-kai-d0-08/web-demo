@@ -1,0 +1,237 @@
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: whitesmoke ;
+}
+.top{
+    width: 100%;
+    float: left;  
+    background-color: white;  
+}
+.user{
+    background: seashell;
+    width: 100%;
+}
+#trangchu{
+    float: left;
+    width: 100px;
+    padding-left:30px;
+    
+}
+a{
+    text-decoration: none;
+}
+.taikhoan{
+    float: right;
+    width: 100px;
+}
+.title h1{
+    text-align: center;
+    color: violet;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 30px;
+    margin: 0px;
+}
+.left{
+    width: 25%;
+    float: left;
+    min-height: 400px;
+    background: lightblue;
+}
+.right{
+    width: 75%;
+    float: left;
+    min-height: 400px;
+    background: rgb(223, 223, 223);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.menu li{
+    padding: 10px 30px;
+    width: 100%;
+    border-bottom: 0.5px rgb(117, 117, 141) solid;  
+}
+li:hover{
+    background-color: thistle;    
+}
+.tieudelienhe{
+    width: 220px;
+    float: left;
+    font-family:'Times New Roman', Times, serif ;    
+}
+h3{
+    color: rgb(253, 254, 255);
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0px;
+}
+.login{
+    width: 40%;
+    margin: 20px auto;
+    padding:20px;
+    box-shadow: 0px 0px 10px rgb(57, 127, 206);
+}
+.login h1{
+    text-align: center;
+}
+.ologin{
+    width: 93%;
+    padding: 10px;
+    margin: 15px;
+    box-sizing:border-box;
+}
+.nutdn{
+    margin: auto !important;
+    padding: 10px;
+    text-align: center;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.table{
+    width: 100%;
+    padding: 10px;
+    border:none;
+}
+.tr{
+    border: 10px rgb(192, 124, 124) solid ;
+    background: white;
+}
+.maunen{
+    background: rgb(241, 235, 235);
+}
+.stt{
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.menuchinh{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+}
+.menuphu{
+    width: 50%;
+    padding: 10px;
+}
+.omenuchinh{
+    padding: 4px 10px;
+}
+.omenucon{
+    width: 280px;
+    padding: 4px 10px;
+}
+.nutadmin{
+    padding: 5px 10px;
+    border: none;
+    background: rgb(243, 207, 194);
+}
+.themmenuchinh{
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: 280px;
+}
+.cotmucsanpham{
+    width:20%;
+    padding: 5px;
+}
+.cotsanpham{
+    width: 35%;
+    text-align: center;
+}
+.cotsanpham img{
+    width: 65%;
+}
+.cotgia{
+    width: 10%;
+    padding: 5px;
+}
+.cotthaotac{
+    width: 20%;
+    text-align: center;
+}
+.thongtinsanpham{
+    width: 800px;
+    margin: auto;
+    background: rgb(248, 224, 223);
+    padding: 10px;
+    min-height: 800px;
+}
+.tensanpham{
+    width: 100%;
+    padding: 5px 10px;
+}
+.gia{
+    width: 200px;
+    padding: 5px 10px;
+}
+.submit{
+    padding: 5px 10px;
+    background: rgb(140, 173, 211);
+    border:1px black solid;
+}
+.danhmuc{
+    padding: 5px 10px;
+    min-width: 150px;
+}
+.vunganhsua{
+    width: 100%;
+    float: left;
+}
+.anhsua{
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+.boxanhsua{
+    width: 100px;
+    padding: 10px;
+    float: left;
+}
+.anhxoa{
+    width: 20px;
+    float: right;
+    position: relative;
+}
+select{
+    padding: 5px 10px;
+}
+.search{
+    padding: 4.5px 10px;
+}
+.bot{
+    width: 100%;
+    padding: 10px;
+    text-align: center ;
+}
+.bot a{
+    color: rgb(96, 144, 248);
+    font-size: 20px; 
+    padding: 0px 3px; 
+}
+.next{
+    width: 20px;
+    margin-bottom: -5px;
+}
+.object_in_page{
+    float: right;
+    padding: 5px 10px;
+}
+.luu{
+    padding: 5px 10px;
+}
+.bot .trangchon{
+    color:rgb(255, 0, 0)!important;
+    font-weight: bolder;
+}
+
+
+

@@ -1,0 +1,36 @@
+.screen{
+    width: 100%;
+    float: left;
+    background-color: white !important;
+}
+.left{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 60%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.imgmini{
+    width: 100%;
+    float: left;
+}
+.imgmini img{
+    width: 80px;
+    float: left;
+    margin: 4px;  
+}
+.mua_ct{
+    color: black;
+}
+.thongbao h5{
+    margin-top: 5px;
+    
+}

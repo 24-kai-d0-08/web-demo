@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 40%;
+    margin-left: 65px ;
+}
+.body{
+    width: 1200px;
+    margin: auto !important;
+    background-color: #9edae3;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+header{
+    width: 100%;
+    background-color:   #9edae3;   
+    float: left;
+}
+.content{
+    background-color: white;
+    width: 100%;
+    float: left;   
+}
+footer{
+    background-color: beige;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 140px;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.tenthuonghieu{
+    color: rgb(250, 79, 79);
+    text-align: center;
+}
+.search-tk{
+    float: left;
+    width: 60%;
+    padding: 50px ;
+}
+#search-tk{
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 20px 0px 0px 20px  ;
+    float: left;      
+    border-color:  black;
+    outline: none;
+}
+.iconmenu{
+    display: none;
+}
+.nut-tk {
+    width: 36px;
+    float: left;
+    border-radius: 0px 20px 20px 0px  ;
+    border-left: none;
+    border-color: black;
+}
+button img{
+    width: 100%;
+}
+.contact{
+    float:left;
+    width: 20%;
+    padding:  20px;
+}
+.contact h6{
+    padding: 3px;
+    font-size: small;
+    color: rgb(250, 79, 79);
+}
+.contact h5{
+    padding: 3px;
+    color: rgb(250, 79, 79);
+}
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #3b97ec;
+    height: 45px;
+    margin-top: -5px;
+    padding: 0px;
+    color: whitesmoke;
+}
+.menu{ 
+    margin: 0px;
+    padding: 0px;
+}
+.ds-menu{
+    font-size:20px;
+    min-width: 150px;
+    float: left;
+    list-style: none;
+    padding: 10px 30px;  
+    height: 45px; 
+}
+.ds-menu:hover{
+    background-color:#eac9c0 ; 
+    color: #c76331;
+}
+.menu-con{
+    min-width: 150px;
+    float: left;
+    list-style: none;
+    display: none;  
+    background-color: #ffb471;
+    color: #25211e;   
+    z-index: 111111;
+    padding: 0px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -30px;
+    
+}
+.ds-menu:hover .menu-con{
+    display: block;
+}
+.ds-con{
+    padding: 10px;
+}
+.ds-con:hover{
+    background-color: #fc9486;
+}
+.clear{
+    clear:both;
+}
+.ds-menu a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.blog{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box !important;
+    margin-bottom: 20px ;
+}
+.thongbao{
+    padding: 10px;
+    background: rgb(125, 225, 250);
+    text-transform: uppercase ;
+    color: white;
+    
+}
+.sanpham{
+    width: 24.5%;
+    float: left;
+    background: white;
+    padding: 10px;
+    margin: 0.25%;
+    box-sizing: border-box !important;  
+}
+.sanpham h5{
+    padding-top: 10px ;
+}
+.anhsp{
+    width: 100%;
+}
+.sanpham span{
+    color: red;
+}
+.boxanhsp{
+    height: 350px;
+    overflow: hidden;
+}
+.boxanhsp img{
+    width: 100%;
+    
+}
+.tieudesp{
+    font-weight:bolder;
+    text-align: center;
+}
+.sanpham:hover{
+    box-shadow: black 0px 0px 5px;
+}
+.mua{
+    width: 18%;
+    float: right;
+    border: none;
+    background: none !important;
+    padding: 0px 5px;
+}
+.giohang{
+    position: fixed;  
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(248, 194, 194);
+    padding: 20px;
+}
+.row {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+.rowright{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.sanpham-mua{
+    width:100%; 
+    float: left;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    background-color: white;
+}
+.giotrai{
+    width: 60%;
+    float: left;
+    color:#3b97ec;
+}
+.giotrai h3{
+    font-size: 16px;
+}
+.giophai{
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+.giophai img{
+    width: 100%;
+}
+.iconM{
+    float: right;
+    border: #3b97ec 1px solid;
+    border-radius: 5px;
+}
+.muaicon{
+    width: 40px;
+    padding: 5px 10px;
+}
+.dsach-mua{
+    width: 800px;
+    height: 600px;
+    background-color: #eac9c0;
+    position: fixed;
+    z-index: 100001;
+    top: 80px;
+    left: 350px;
+    display: none;
+    padding: 5px;
+    overflow: scroll;
+}
+.dsach-mua h1{
+    text-align: center;
+}
+.dong{
+    width: 40px;
+    float: right;
+    padding: 5px;
+}
+.dong img{
+    width: 100%;
+}
+.hien-giohang{
+    display: block;
+}
+.nut-thanhtoan{
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: #ffb471;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.title-donhang{
+    padding:20px;
+    color: #ee5439;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+table{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    box-shadow: #afafaf 0px 0px 3px 3px;
+}
+.cot-stt{
+    width: 5%;
+    padding: 10px;
+    text-align: center;
+}
+.cot-sanpham{
+    width: 25%;
+    border-left: #fdeee2 solid 1px;
+    padding: 15px;
+    text-align: center;
+}
+.cot-soluong{
+    width: 15%;
+    padding: 15px;
+    border-left: #fdeee2 solid 1px;
+    text-align: center;
+}
+.cot-soluong input{
+    width: 50%;
+    padding: 5px 10px;
+}
+.nut-huy{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(243, 88, 243);
+    color:white;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+}
+.nut-huy:hover{
+    background-color: #c30af1;
+    color:#fdeee2
+}
+.cot-gia{
+    width: 10%;
+    padding: 15px;
+    border-left: #fdeee2 solid 1px;
+    text-align: center;
+}
+.cot-giatong{
+    width: 10%;
+    padding: 15px;
+    border-left: #fdeee2 solid 1px;
+    text-align: center;
+}
+.cot-anh{
+    width: 15%;
+    padding: 15px;
+    border-left: #fdeee2 solid 1px;
+    text-align: center;
+}
+.cot-anh img{
+    width:80%;
+}
+.cot-thaotac{
+    width:20% ;
+    border-left: #fdeee2 solid 1px;
+    padding: 15px;
+    text-align: center;
+}
+.maunen-tr{
+    background-color: #cfcfca;
+}
+.tieptuc{
+    padding: 10px 15px;
+    background: #ee5439;
+    border-radius: 8px;
+    margin-top: 15px;
+    color:white;
+    border: none;
+}
+.chitiet-kh{
+    padding-left:15px;
+    font-weight: bolder;
+}
+@media only screen and (max-width:900px) {
+    .body{
+        width: 100%;
+    }
+    .header{
+        position: fixed;
+        top: 0px;
+        z-index: 111111;
+        background: #3b97ec;
+    }
+    .sanpham{
+        width: 100%;
+    }
+    .sanpham h5{
+        color: #fc9486;
+    }
+    .contact{
+        display: none;
+    }
+    .menu{
+        height: auto;
+        display: none;
+        position: fixed;
+        z-index: 11111111;
+        margin-top: 70px;
+    }
+    .menu-con{
+        min-width: none;
+        margin: 0px;
+        float: left;
+        margin: 5px 0px 0px 100px;
+    }
+    .ds-con{
+        padding: 10px 20px;
+    }
+    .content{
+        margin-top: 140px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 60px;
+        float: left;
+        margin-top: 5px;
+    }
+    .tenthuonghieu{
+        float: left;
+        padding: 5px;
+        font-size: 25px;
+    } 
+    .ds-menu{
+        width: 100%;
+        position: relative;
+        float: left;
+        border-bottom: 1px rgba(90, 88, 88, 0.753) solid;
+    }
+    .iconmenu{
+        display:block;
+        float: left;
+    }
+    .iconmenu img{
+        width: 40px;  
+    }
+    .search-tk{
+        width: 90%;
+        padding:0px 0px 0px 15px;
+        margin: 0px;
+    }
+    .slide{
+        display: none;
+    }
+    .giotrai{
+        width: 60%;
+        float: left;
+        color:#3b97ec;
+    }
+    .giophai{
+        width: 40%;
+        float: left;
+    }
+    .giophai img{
+        width: 60px;
+    }
+}
